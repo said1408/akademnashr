@@ -1,6 +1,13 @@
 .site-header{
     background-color: #fff;
 }
+.sitenav-list{
+    font-style: 15px;
+    line-height: 25px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: gray;
+
+}
 
 .sitenav-list{
  list-style: none;
