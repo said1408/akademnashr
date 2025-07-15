@@ -5,140 +5,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akademnashr</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  
+   <!-- SITE HEADER -->
   <header class="site-header">
-    <!-- SITE HEADER -->
-    <a href="index.html">
-      <img src="img/20211118_204542672187998486817772.png" alt="Akademnashr logo" width="227" height="60">
-    </a>
   
-    <div class="site-header-right">
-      <nav>
-        <ul class="sitenav-list">
-          <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-          <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-          <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-          <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
-        </ul>
-      </nav>
-       <a class="main-link " href="#">Ro'yxatdan o'tish</a>
-    </div>
+      <div class=" site-header-container container">
+        <a class="logo-link" href="index.html">
+          <img src="img/20211118_204542672187998486817772.png" alt="Akademnashr logo" width="227" height="60">
+        </a>
+        
+        <div class="site-header-right">
+          <nav>
+            <ul class="sitenav-list">
+              <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+              <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+              <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+              <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
+            </ul>
+          </nav>
+          <a class="main-link " href="#">Ro'yxatdan o'tish</a>
+        </div>
+      </div>
 
-  </header> 
-   
- 
+  </header>
+  
+  
   
   <main>
     <!-- HERO --> 
     <section class="hero">
-      <div class="hero-content">
-        <hr class="orange-line">
-        <h2 class="hero-heading">Phytonda dasturlash asoslari</h2>
-        <p class="hero-text">Dasturlash asoslariga oid o'zbek tilidagi ilk eng mukammal qo'llanma.<br>Kitobning har bir bo'limi uchun maxsus video darslar yozilagan bo'lib,<br>ularga kitobda ko'rsatilgan QR kod orqali o'tish mumkin.
-        </p>
-        <a class="main-link" href="#">Buyurma berish uchun</a>
+      <div class=" hero-container container">
+        <div class="hero-content">
+          <hr class="orange-line">
+          <h2 class="hero-heading">Phytonda dasturlash asoslari</h2>
+          <p class="hero-text">Dasturlash asoslariga oid o'zbek tilidagi ilk eng mukammal qo'llanma.<br>Kitobning har bir bo'limi uchun maxsus video darslar yozilagan bo'lib,<br>ularga kitobda ko'rsatilgan QR kod orqali o'tish mumkin.
+          </p>
+          <a class="main-link" href="#">Buyurma berish uchun</a>
+        </div>
+        
+        <img class="hero-img" src="img/Снимок экрана 2025-06-23 191411.png" alt="Phyton dasturlash tili kitobi" width="510" height="510">
+            </section>
       </div>
-      
-      <img class="hero-img" src="img/Снимок экрана 2025-06-23 191411.png" alt="Phyton dasturlash tili kitobi" width="510" height="510">
-    </section> 
-    
+    <!-- FEATURES  -->
     <section class="fetures">
-      <hr class="orange-line">
-      <h2 class="fetures-heading">Nega aynan Akademik Nashr</h2>
-      <ul class="features-list">
-        <li class="feature">
-          <img src="img/Снимок экрана 2025-06-23 191606.png"alt="" width="100" height="100">
-          <h3 class="feature-heading">Oson buyurtma qilish</h3>
-          <p class="feature-info">Akaddemik.uz saytidan o'zingizga yoqqan kitobni sodda usulda buyurma qila olasiz</p>
-        </li>
-        <li class="feature">
-          <img src="img/Снимок экрана 2025-06-23 191628.png" alt="" width="100" height="100">
-          <h3 class="feature-heading">Eng sara kitoblar</h3>
-          <p class="featurre-info">Trenddagi ommabop, turli auditorialarga mo'ljallangan har xil janrdagi kitoblarni topa olasiz</p>
-        </li>
-        <li class="feature">
-          <img src="img/Снимок экрана 2025-06-23 191613.png" alt="" width="100" height="">
-          <h3 class="feature-heading">Tez yetkazib berish</h3>
-          <p class="feature-info" >O'zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, Xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
-        </li>
-      </ul>
-      
+      <div class=" featre-container container">
+        <hr class="orange-line">
+        <h2 class="fetures-heading">Nega aynan <br> Akademik Nashr</h2>
+        <ul class="features-list">
+          <li class="feature">
+            <img src="img/Снимок экрана 2025-06-23 191606.png"alt="" width="100" height="100">
+            <h3 class="feature-heading">Oson buyurtma qilish</h3>
+            <p class="feature-info">Akaddemik.uz saytidan o'zingizga yoqqan kitobni sodda usulda buyurma qila olasiz</p>
+          </li>
+          <li class="feature">
+            <img src="img/Снимок экрана 2025-06-23 191628.png" alt="" width="100" height="100">
+            <h3 class="feature-heading">Eng sara kitoblar</h3>
+            <p class="featurre-info">Trenddagi ommabop, turli auditorialarga mo'ljallangan har xil janrdagi kitoblarni topa olasiz</p>
+          </li>
+          <li class="feature">
+            <img src="img/Снимок экрана 2025-06-23 191613.png" alt="" width="100" height="">
+            <h3 class="feature-heading">Tez yetkazib berish</h3>
+            <p class="feature-info" >O'zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, Xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
+          </li>
+        </ul>
+        
+      </div>
     </section>
     
     <!-- AKSIYALAR -->
-    <section class="promo">
-      <div class="promo-content">
-        <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya</h2>
-        <p class="promo-text">Ertaklar, she'rlar va sarguzasht asarlar, fikslashni o'stirish uchun turli mashq qo'llanmalari va ko'mikslar</p>
-        <p class="promo-text">Aksiyadagi eng katta to'plamda <strong class="promo-hightlight">50 ta kitob</strong>ni <strong class="promo-hightlight">350 ming</strong>so'mga aslida 380 ming.</p>
-        <a class="main-link" href="#">Buyurtma berish</a>
-      </div>
-      <img class="promo-img" src="img/543995_19.jpeg" alt="kitoblar toplami" width="440">
-    </section>
+    
+      <section class="promo">
+        <div class="container">
+        <div class="promo-inner">
+          <div class="promo-content">
+            <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya</h2>
+            <div class="promo-info-wrapper">
+              <p class="promo-text">Ertaklar, she'rlar va sarguzasht asarlar, fikslashni o'stirish uchun turli mashq qo'llanmalari va ko'mikslar</p>
+              <p class="promo-text">Aksiyadagi eng katta to'plamda <strong class="promo-hightlight">50 ta kitob</strong>ni <strong class="promo-hightlight">350 ming</strong>so'mga aslida 380 ming.</p>
+            </div>
+            <a class="main-link" href="#">Buyurtma berish</a>
+          </div>
+          <img class="promo-img" src="img/543995_19.jpeg" alt="kitoblar toplami" width="440">
+          </div>
+        </div>
+      </section>
+    
   </main>
   
   <!-- SITE FOOTER   -->
   <footer class="site-footer">
-    <div class="site-footer-top">
-      <a href="index.html">
-        <img src="img/20211118_204542672187998486817772.png " alt=""> 
-      </a>
+    <div class="container">
+      <div class="site-footer-top">
+        <a class="logo-link" href="index.html">
+          <img src="img/20211118_204542672187998486817772.png " alt="">
+        </a>
       
-      <!-- IJTIMOIY TARMOQLAR -->                                
-      <ul class="site-footer-socials">
-        <li>
-          <a href="https://t.me/Akademnashr" target="_blank"><img src="img/Снимок экрана 2025-06-23 192012.png" alt="" ></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/Akademnashr" target="_blank"><img src="img/Снимок экрана 2025-06-23 192029.png" alt=""></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/akademnashr/?hl=en" target="_blank"><img src="img/Снимок экрана 2025-06-23 192038.png" alt=""></a>
-        </li>
-      </ul>
-    </div>
-    <hr class="site-footer-divider">
-    <!-- LINKLAR --> 
-    <div class="site-footer-bottom">
-      <ul class="site-footer-link-list">
-        <li class="footer-link"><a href="#">Bosh sahifa</a></li>
-        <li class="footer-link"><a href="#">Kitoblar</a></li>
-        <li class="footer-link"><a href="#">Aksiyalar</a></li>
-        <li class="footer-link"><a href="#">Yangiliklar</a></li>
-        <li class="footer-link"><a href="#">Kontaktlar</a></li>
-      </ul>
+        <!-- IJTIMOIY TARMOQLAR -->
+        <ul class="site-footer-socials">
+          <li>
+            <a href="https://t.me/Akademnashr" target="_blank"><img src="img/Снимок экрана 2025-06-23 192012.png" alt="" ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Akademnashr" target="_blank"><img src="img/Снимок экрана 2025-06-23 192029.png" alt=""></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/akademnashr/?hl=en" target="_blank"><img src="img/Снимок экрана 2025-06-23 192038.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <hr class="site-footer-divider">
+      <!-- LINKLAR -->
+      <div class="site-footer-bottom">
+        <ul class="site-footer-link-list">
+          <li class="footer-link"><a href="#">Bosh sahifa</a></li>
+          <li class="footer-link"><a href="#">Kitoblar</a></li>
+          <li class="footer-link"><a href="#">Aksiyalar</a></li>
+          <li class="footer-link"><a href="#">Yangiliklar</a></li>
+          <li class="footer-link"><a href="#">Kontaktlar</a></li>
+        </ul>
       
-      <ul class="site-footer-link-list">
-        <li class="footer-link"><a href="#">Ilmiy nashrlar</a></li>
-        <li class="footer-link"><a href="#">Ilmiy-ommabop nashrlar</a></li>
-        <li class="footer-link"><a href="#">Ma'rifiy nashrlar</a></li>
-        <li class="footer-link"><a href="#">Lug'atlar</a></li>
-        <li class="footer-link"><a href="#">Adabiy-badiiy nashrlar</a></li>
-        <li class="footer-link"><a href="#">Abiturientlar uchun</a></li>
-        <li class="footer-link"><a href="#">Bolalar uchun</a></li>
-      </ul>
+        <ul class="site-footer-link-list">
+          <li class="footer-link"><a href="#">Ilmiy nashrlar</a></li>
+          <li class="footer-link"><a href="#">Ilmiy-ommabop nashrlar</a></li>
+          <li class="footer-link"><a href="#">Ma'rifiy nashrlar</a></li>
+          <li class="footer-link"><a href="#">Lug'atlar</a></li>
+          <li class="footer-link"><a href="#">Adabiy-badiiy nashrlar</a></li>
+          <li class="footer-link"><a href="#">Abiturientlar uchun</a></li>
+          <li class="footer-link"><a href="#">Bolalar uchun</a></li>
+        </ul>
       
-      <ul class="site-footer-link-list">
-        <li class="footer-link"><a href="#">Ko'p so'raladigan savollar</a></li>
-        <li class="footer-link"><a href="#">Yetkazib berish haqida</a></li>
-        <li class="footer-link"><a href="#">To'lov usullari haqida</a></li>
-      </ul>
+        <ul class="site-footer-link-list">
+          <li class="footer-link"><a href="#">Ko'p so'raladigan savollar</a></li>
+          <li class="footer-link"><a href="#">Yetkazib berish haqida</a></li>
+          <li class="footer-link"><a href="#">To'lov usullari haqida</a></li>
+        </ul>
       
-      <ul class="site-footer-link-list">
-        <li class="footer-link"><a href="#">Bo'sh ish o'rinlari</a></li>
-        <li class="footer-link"><a href="#">Biz bilan bog'lanish</a></li>
-        <li class="footer-link"><a href="#">Maxfiylik nizomi</a></li>
-      </ul>
+        <ul class="site-footer-link-list">
+          <li class="footer-link"><a href="#">Bo'sh ish o'rinlari</a></li>
+          <li class="footer-link"><a href="#">Biz bilan bog'lanish</a></li>
+          <li class="footer-link"><a href="#">Maxfiylik nizomi</a></li>
+        </ul>
+      </div>
     </div>
   </footer>
   
   
-
-
-</body>
-</html>  
+ 
+  </html>  
